@@ -63,7 +63,7 @@ Pairs with the free Nagi Oat and Nagi Sumi themes. Open source: github.com/Nik-c
 
 **Remote code:** No, I am not using remote code.
 
-**Data usage:** tick **Web browsing activity** only (history, tab titles and addresses are read and processed locally). Then certify all three: not sold to third parties, not used for unrelated purposes, not used for creditworthiness or lending.
+**Data usage:** tick **Web history** only (history, tab titles and addresses are read and processed locally; Nagi reads no page content, so not Website content or User activity). Then certify all three: not sold to third parties, not used for unrelated purposes, not used for creditworthiness or lending.
 
 ## Nagi Oat (theme) · `release/nagi-oat.zip`
 
