@@ -1,0 +1,33 @@
+{
+  "name": "nagi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A calm layer for Chrome: new tab, spaces side panel, command bar and two themes. Reads no web pages.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "assets": "node scripts/assets.ts",
+    "verify": "node scripts/verify.ts",
+    "package": "npm run build && rm -rf release && mkdir release && (cd dist && zip -qrX ../release/nagi.zip .) && (cd themes/oat && zip -qrX ../../release/nagi-oat.zip . -x 'Cached Theme.pak' '.DS_Store') && (cd themes/sumi && zip -qrX ../../release/nagi-sumi.zip . -x 'Cached Theme.pak' '.DS_Store')"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

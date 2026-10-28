@@ -1,0 +1,11 @@
+node_modules
+dist
+.verify
+.DS_Store
+Cached Theme.pak
+
+# Personal Chrome app icon tooling, kept local only
+icons/chrome/
+scripts/chrome-icon.ts
+.claude/
+release

@@ -1,0 +1,117 @@
+{
+  "manifest_version": 3,
+  "name": "Nagi Oat",
+  "version": "0.2.0",
+  "description": "A warm oat-paper theme for Chrome with a faint grain and an atomic orange accent. Pairs with the Nagi extension.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_frame_inactive": "images/frame_inactive.png",
+      "theme_toolbar": "images/toolbar.png"
+    },
+    "tints": {
+      "frame": [
+        -1,
+        -1,
+        0.5
+      ],
+      "frame_inactive": [
+        -1,
+        -1,
+        0.5
+      ],
+      "background_tab": [
+        -1,
+        -1,
+        0.5
+      ],
+      "background_tab_inactive": [
+        -1,
+        -1,
+        0.5
+      ]
+    },
+    "colors": {
+      "frame": [
+        226,
+        224,
+        210
+      ],
+      "frame_inactive": [
+        233,
+        232,
+        221
+      ],
+      "background_tab": [
+        226,
+        224,
+        210
+      ],
+      "background_tab_inactive": [
+        233,
+        232,
+        221
+      ],
+      "toolbar": [
+        244,
+        243,
+        236
+      ],
+      "toolbar_text": [
+        26,
+        26,
+        23
+      ],
+      "toolbar_button_icon": [
+        111,
+        109,
+        99
+      ],
+      "tab_text": [
+        26,
+        26,
+        23
+      ],
+      "tab_background_text": [
+        111,
+        109,
+        99
+      ],
+      "tab_background_text_inactive": [
+        111,
+        109,
+        99
+      ],
+      "bookmark_text": [
+        111,
+        109,
+        99
+      ],
+      "omnibox_background": [
+        233,
+        231,
+        220
+      ],
+      "omnibox_text": [
+        26,
+        26,
+        23
+      ],
+      "ntp_background": [
+        235,
+        235,
+        223
+      ],
+      "ntp_text": [
+        26,
+        26,
+        23
+      ],
+      "ntp_link": [
+        233,
+        99,
+        26
+      ]
+    }
+  }
+}
