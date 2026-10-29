@@ -1,3 +1,4 @@
-// Public links shown in settings. Swap THEMES for the Chrome Web Store listings once they are live.
+// Public links shown in settings.
 export const REPO = 'https://github.com/Nik-code/nagi'
-export const THEMES = `${REPO}#themes`
+export const OAT = 'https://chromewebstore.google.com/detail/nagi-oat/nlagpmgjghljhagokponiphlcednnkle'
+export const SUMI = 'https://chromewebstore.google.com/detail/nagi-sumi/andmeafifmdgmcjjpailapkgjoilhgdg'

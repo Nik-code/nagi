@@ -6,6 +6,16 @@ Nagi never runs inside web pages. It has no content scripts and no host permissi
 
 ## Install
 
+| | Chrome Web Store |
+|---|---|
+| **Nagi** | [Add to Chrome](https://chromewebstore.google.com/detail/nagi/nilnmgcdkmgimidmlficfdjloecjkdhl) |
+| **Oat** theme (light) | [Add to Chrome](https://chromewebstore.google.com/detail/nagi-oat/nlagpmgjghljhagokponiphlcednnkle) |
+| **Sumi** theme (dark) | [Add to Chrome](https://chromewebstore.google.com/detail/nagi-sumi/andmeafifmdgmcjjpailapkgjoilhgdg) |
+
+The first new tab asks whether to keep the change or go back to Google. Keep it.
+
+### From source
+
 ```bash
 npm install
 npm run build
@@ -13,7 +23,6 @@ npm run build
 
 1. Open `chrome://extensions`, turn on Developer mode, click **Load unpacked** and pick `dist/`.
 2. For the browser chrome, load a theme too (see [Themes](#themes)).
-3. The first new tab asks whether to keep the change or go back to Google. Keep it.
 
 After editing code, run `npm run build` and press the reload arrow on Nagi's card in `chrome://extensions`. After `npm run assets` changes a theme, load its folder again the same way.
 
@@ -68,7 +77,7 @@ Auto-archive is off by default. Turn it on in the panel's settings (12h, 24h or 
 
 ## Themes
 
-Oat (light) and Sumi (dark) colour Chrome's frame, tab rail, toolbar and address bar to match Nagi, with a faint paper grain, and stay put when the window is in the background. They are separate from the extension, so you can use either on its own.
+Oat (light) and Sumi (dark) colour Chrome's frame, tab rail, toolbar and address bar to match Nagi, with a faint paper grain, and stay put when the window is in the background. They are separate from the extension, so you can use either on its own. Get them from the store: [Oat](https://chromewebstore.google.com/detail/nagi-oat/nlagpmgjghljhagokponiphlcednnkle) and [Sumi](https://chromewebstore.google.com/detail/nagi-sumi/andmeafifmdgmcjjpailapkgjoilhgdg).
 
 To load one from source, open `chrome://extensions`, turn on Developer mode, click **Load unpacked** and pick `themes/oat` or `themes/sumi`. Chrome holds one theme at a time; loading the other one switches. Remove it from `chrome://settings/appearance` with **Reset to default**.
 

@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { REPO, THEMES } from '../lib/links'
+import { OAT, REPO, SUMI } from '../lib/links'
 import { saveState } from '../lib/store'
 import type { Appearance, Settings, ToolbarAction } from '../lib/types'
 import { Icon } from '../ui/Icon'
@@ -90,10 +90,14 @@ export function SettingsForm({ settings }: { settings: Settings }) {
         </p>
         <p>
           Dress Chrome to match with the{' '}
-          <a href={THEMES} target="_blank" rel="noreferrer" className="text-ink-2 hover:text-accent">
-            Oat and Sumi themes
-          </a>
-          .
+          <a href={OAT} target="_blank" rel="noreferrer" className="text-ink-2 hover:text-accent">
+            Oat
+          </a>{' '}
+          and{' '}
+          <a href={SUMI} target="_blank" rel="noreferrer" className="text-ink-2 hover:text-accent">
+            Sumi
+          </a>{' '}
+          themes.
         </p>
       </footer>
     </div>

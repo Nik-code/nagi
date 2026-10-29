@@ -93,6 +93,10 @@ Made to pair with Nagi, a calm new tab, spaces panel and command bar for Chrome.
 
 **Images:** `theme-sumi/1-sumi.png`, small promo `theme-sumi/promo-small-440x280.png`.
 
-## After the listings go live
+## Live listings
 
-Replace `THEMES` in `src/lib/links.ts` with the theme listing URLs (or a store search link) so the settings line points straight at them, then bump the version and upload again.
+- Nagi: https://chromewebstore.google.com/detail/nagi/nilnmgcdkmgimidmlficfdjloecjkdhl
+- Nagi Oat: https://chromewebstore.google.com/detail/nagi-oat/nlagpmgjghljhagokponiphlcednnkle
+- Nagi Sumi: https://chromewebstore.google.com/detail/nagi-sumi/andmeafifmdgmcjjpailapkgjoilhgdg
+
+For an update, bump `version` in `package.json` and `public/manifest.json` (or the theme's manifest), run `npm run package`, and upload the zip under Package in the dashboard.
