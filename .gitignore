@@ -9,3 +9,11 @@ icons/chrome/
 scripts/chrome-icon.ts
 .claude/
 release
+
+# env files
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
